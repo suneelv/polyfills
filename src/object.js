@@ -1,4 +1,4 @@
-if (typeof FEATURE_NO_ES2015 === 'undefined') {
+if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 
 (function() {
   let needsFix = false;

@@ -439,7 +439,7 @@ if (typeof FEATURE_NO_ES2016 === 'undefined' && !Array.prototype.includes) {
   });
 }
 
-if (typeof FEATURE_NO_ES2015 === 'undefined') {
+if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 
   (function () {
     let needsFix = false;
@@ -744,7 +744,7 @@ if (typeof FEATURE_NO_ES2015 === 'undefined') {
   })(PLATFORM.global);
 }
 
-if (typeof FEATURE_NO_ES2015 === 'undefined') {
+if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 
   const bind = Function.prototype.bind;
 

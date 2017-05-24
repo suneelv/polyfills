@@ -1,6 +1,6 @@
 import {PLATFORM} from 'aurelia-pal';
 
-if (typeof FEATURE_NO_ES2015 === 'undefined') {
+if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 
 const bind = Function.prototype.bind;
 
@@ -44,7 +44,7 @@ if (typeof Reflect.ownKeys !== 'function') {
   Reflect.ownKeys = function(o) { return (Object.getOwnPropertyNames(o).concat(Object.getOwnPropertySymbols(o))); }
 }
 
-} // endif FEATURE_NO_ES2015
+} // endif FEATURE_NO_ESNEXT
 
 if (typeof FEATURE_NO_ESNEXT === 'undefined') {
 
